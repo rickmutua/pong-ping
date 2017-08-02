@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <!--custom bootstrap css -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+          <!--custom css-->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <title></title>
+
+  </head>
+
+
+ <body>
+
+   <div id="header">
+   <h1> PiNg-pOnG </h1>
+ </div>
+
+ <div class="container" id="twos">
+   <div class="row">
+
+     <div class="col-md-6" id="about" style="text-align: left;">
+       <h2> About Ping-Pong </h2>
+        <p> Created by: Erick Mutua </p>
+        <p> GitHub Username/URL: rickmutua
+        <p> Level 2 Test For: Javascript </p>
+     </div>
+
+     <div class="col-md-6" id="play" style="text-align: left;">
+       <h2> Let's Play! </h2>
+       <h3> Rules: </h3>
+
+       <p> Ping Pong will count up to your number from 1 with the following exceptions: </p>
+         <ul>
+           <li> Numbers divisible by 3 become 'ping' </li>
+           <li> Numbers divisible by 5 become 'pong' </li>
+           <li> Numbers divisible by 3 and 5 become 'pingpong' </li>
+         </ul>
+
+
+         <form id="pingPongForm">
+           <div class="form-group">
+             <label for="number">Enter Your Number:</label>
+             <input id="number" class="formcontrol " required=" " type="text "></input>
+             <button class="btn animated shake btn-primary">pInG-pOnG</button>
+           </div>
+         </form>
+
+         <form>
+          <div class="form-outline" id="output">
+            <div id="userOutput">
+               <ul id="result">
+
+                </ul>
+             </div>
+           </div>
+       </form>
+
+       </div>
+     </div>
+   </div>
+
+
+        <!--JQUERY scripts-->
+<script src="JS/jquery-3.2.1.js"></script>
+<script src="JS/script.js"></script>
+
+</body>
+</html>
