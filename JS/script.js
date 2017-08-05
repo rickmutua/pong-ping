@@ -1,18 +1,21 @@
+
+      //business logic
+
 function pingPong(number) {
   var result = [];
-  for (var r = 1; r <= number; r++) {
+  for (var i = 1; i <= number; i++) {
 
-    if ((r % 15) === 0){
+    if ((i % 15) === 0){
       result.push("Ping-Pong");
 
-    } else if ((r % 5) === 0){
+    } else if ((i % 5) === 0){
       result.push("Pong");
 
-    } else if ((r % 3) === 0){
+    } else if ((i % 3) === 0){
       result.push("Ping");
 
     } else {
-      result.push(r);
+      result.push(i);
 
     }
   }
@@ -20,6 +23,9 @@ function pingPong(number) {
   return result;
 
 }
+
+
+    //user interface logic
 
 $(document).ready(function() {
   $("form#pingPongForm").submit(function(event) {
@@ -30,7 +36,7 @@ $(document).ready(function() {
 
     result.forEach(function(number) {
 
-      $("ul#result").append("<li>"+number+"</li>");
+      $("ul#result").append("<li>"+number+",</li>");
 
     });
   });
