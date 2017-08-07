@@ -12,7 +12,8 @@ Ping Pong is a web application that takes a number from a user and returns a ran
 -Numbers divisible by 15 are replaced with "pingpong" Example Input : 15 Example output: 1,2,ping,4,pong,ping,7,8,ping,pong,11,pong,13,14,pingpong.
 
 ### Programming Languages/ Technology Used
--HTML
--CSS
--BOOTSTRAP
--JAVASCRIPT
+- HTML
+- CSS
+- BOOTSTRAP
+- JAVASCRIPT
+- JQUERY
